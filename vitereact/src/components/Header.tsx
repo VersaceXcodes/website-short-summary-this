@@ -10,7 +10,11 @@ const Header: React.FC<HeaderProps> = ({ showLogo }) => {
   const location = useLocation();
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-forest py-4 px-6 border-b-2 border-gold/50 shadow-lg h-24">
+    <header className={`fixed top-0 left-0 right-0 z-50 py-4 px-6 h-24 transition-all duration-300 ${
+      showLogo 
+        ? 'bg-forest border-b-2 border-gold/50 shadow-lg' 
+        : 'bg-transparent border-b-0 border-transparent'
+    }`}>
       <div className="container mx-auto flex justify-between items-center relative h-full">
         {/* Navigation Left */}
         <nav className="flex items-center space-x-6 md:space-x-12">

@@ -7,7 +7,7 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ showHeaderLogo }) => {
   return (
-    <section className="relative min-h-screen w-full flex items-center justify-center bg-forest overflow-hidden px-6 py-20 pt-32">
+    <section className="relative min-h-screen w-full flex items-center justify-center bg-cognac overflow-hidden px-6 py-20 pt-32">
        {/* Background Texture/Grain could be added here for more retro feel */}
        
        <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-40 items-center relative z-10">
