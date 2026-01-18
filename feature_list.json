@@ -11,12 +11,13 @@
       "Check that all text is properly readable and styled"
     ],
     "priority": 1,
-    "passes": false,
+    "passes": true,
     "selected": true,
     "order": 1,
     "status": "in_progress",
-    "lastAttemptAt": "2026-01-18T15:12:53.169Z",
-    "attempts": 1
+    "lastAttemptAt": "2026-01-18T15:20:02.529Z",
+    "attempts": 2,
+    "errorMessage": "Agent completed but feature not marked as passed"
   },
   {
     "id": "main-navigation-header",
