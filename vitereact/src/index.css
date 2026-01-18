@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #F8F4E3; /* Ivory default */
+  color: #014421; /* Forest Green text default */
+}
+
+body {
+  margin: 0;
+  font-family: "CA SMUT FULL", Arial, sans-serif;
+}
