@@ -4,13 +4,11 @@ The Vite build process failed. Analyze the error output below and fix the issue.
 
 ## Build Error Output:
 ```
-
-> vitereact@0.0.0 build
-> tsc -b && vite build
-
-vite.config.ts(15,5): error TS2769: No overload matches this call.
-  The last overload gave the following error.
-    Type 'string' is not assignable to type 'true | string[] | undefined'.
+npm error Missing script: "build"
+npm error
+npm error To see a list of scripts, run:
+npm error   npm run
+npm error A complete log of this run can be found in: /root/.npm/_logs/2026-01-18T18_38_52_666Z-debug-0.log
 
 ```
 
