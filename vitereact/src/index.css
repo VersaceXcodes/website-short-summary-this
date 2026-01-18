@@ -1,13 +1,23 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-forest: #014421;
+  --color-cognac: #8B5E3C;
+  --color-ivory: #F8F4E3;
+  --color-burgundy: #581845;
+  --color-gold: #B08D57;
+  --color-rust: #B7410E;
+  
+  --font-smut: "CA SMUT", Impact, sans-serif;
+  --font-smut-full: "CA SMUT FULL", Arial, sans-serif;
+}
 
 :root {
-  background-color: #F8F4E3; /* Ivory default */
-  color: #014421; /* Forest Green text default */
+  background-color: var(--color-ivory);
+  color: var(--color-forest);
 }
 
 body {
   margin: 0;
-  font-family: "CA SMUT FULL", Arial, sans-serif;
+  font-family: var(--font-smut-full);
 }

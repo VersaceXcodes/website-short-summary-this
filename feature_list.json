@@ -14,10 +14,11 @@
     "passes": true,
     "selected": true,
     "order": 1,
-    "status": "in_progress",
-    "lastAttemptAt": "2026-01-18T15:20:02.529Z",
+    "status": "completed",
+    "lastAttemptAt": "2026-01-18T15:24:56.042Z",
     "attempts": 2,
-    "errorMessage": "Agent completed but feature not marked as passed"
+    "errorMessage": "Agent completed but feature not marked as passed",
+    "completedAt": "2026-01-18T15:24:56.042Z"
   },
   {
     "id": "main-navigation-header",
