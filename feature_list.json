@@ -1,60 +1,32 @@
 {
   "features": [
     {
-      "id": "header",
-      "name": "Header Navigation",
-      "description": "Header with Home, About, Pricing, Contact navigation links. Small logo appears on scroll.",
-      "passes": false,
-      "selected": true
+      "name": "Landing Page Structure",
+      "description": "Implement the main landing page with Header, Welcome, Services, FAQ, and Footer sections.",
+      "selected": true,
+      "passes": true,
+      "priority": "high"
     },
     {
-      "id": "hero",
-      "name": "Welcome/Hero Section",
-      "description": "Hero section with business tagline, description text, and centered logo on cognac brown background",
-      "passes": false,
-      "selected": true
-    },
-    {
-      "id": "services",
-      "name": "Services Section",
-      "description": "How our services work - Research, Script, Film & Edit, Upload with icons and descriptions",
-      "passes": false,
-      "selected": true
-    },
-    {
-      "id": "faq",
-      "name": "FAQ Section",
-      "description": "Collapsible FAQ with all 9 questions and answers",
-      "passes": false,
-      "selected": true
-    },
-    {
-      "id": "footer",
-      "name": "Footer Section",
-      "description": "Footer with social media icons and contact email",
-      "passes": false,
-      "selected": true
-    },
-    {
-      "id": "about-page",
       "name": "About Page",
-      "description": "Our Story section and detailed Research/Script/Film&Edit/Upload breakdown",
+      "description": "Implement the full About page with 'Our Story' and detailed service descriptions.",
+      "selected": true,
       "passes": false,
-      "selected": true
+      "priority": "medium"
     },
     {
-      "id": "pricing-page",
       "name": "Pricing Page",
-      "description": "Service pricing explanation and Starter package at €1950/month",
+      "description": "Implement the Pricing page with 'Why cost this much' and 'Starter' plan details.",
+      "selected": true,
       "passes": false,
-      "selected": true
+      "priority": "medium"
     },
     {
-      "id": "contact-page",
-      "name": "Contact Page",
-      "description": "Basic contact form with fields for name, email, message",
+      "name": "Contact Functionality",
+      "description": "Implement contact form or email integration.",
+      "selected": true,
       "passes": false,
-      "selected": true
+      "priority": "medium"
     }
   ]
 }
