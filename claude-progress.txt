@@ -4,3 +4,9 @@ Session 1:
 - Implemented and verified 'main-navigation-header' feature.
 - Verified header styling (Forest Green), fixed position, and navigation routing.
 - Verified dynamic logo behavior on scroll.
+
+Session 2:
+- Fixed Vite allowedHosts configuration to resolve blocked request error
+- Added new modal host to allowed hosts list in vite.config.ts
+- Restarted dev servers successfully (Vite on :5173, Backend on :3000)
+- Ready to continue feature implementation

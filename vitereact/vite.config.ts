@@ -11,4 +11,10 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  server: {
+    allowedHosts: [
+      '123website-short-summary-this.launchpulse.ai',
+      'ta-01kf8snsn4kdenptt8k4h4k8pb-5173.wo-9mpy4gmqi16rm91leevmrp12y.w.modal.host'
+    ]
+  },
 })

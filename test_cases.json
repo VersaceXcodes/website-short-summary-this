@@ -1,0 +1,64 @@
+{
+  "testCases": [
+    {
+      "id": "functional-app-test",
+      "name": "Functional Application Test",
+      "category": "functionality",
+      "priority": "high",
+      "description": "Verify the application has actual functionality beyond basic placeholder",
+      "steps": [
+        "Navigate to application root",
+        "Verify Hero section is visible",
+        "Navigate to Sign In page",
+        "Verify login form is interactive",
+        "Test navigation links in Header and Footer"
+      ],
+      "expectedOutcome": "Application navigates correctly and shows interactive elements",
+      "failureCondition": "If page only shows 'Vite + React' placeholder or white screen, this test should FAIL"
+    },
+    {
+      "id": "ui-components-test",
+      "name": "UI Components Test",
+      "category": "interface",
+      "priority": "high",
+      "description": "Test that UI components are properly implemented",
+      "steps": [
+        "Check for primary action buttons (e.g., 'Sign In', 'Get Started')",
+        "Verify input fields on Sign In page accept text",
+        "Verify navigation menu items exist and are clickable",
+        "Check that Hero section text is rendered correctly"
+      ],
+      "expectedOutcome": "UI components are rendered, styled (Tailwind), and interactive"
+    },
+    {
+      "id": "content-quality-test",
+      "name": "Content Quality Test",
+      "category": "content",
+      "priority": "high",
+      "description": "Verify application has meaningful content",
+      "steps": [
+        "Check that Hero section has a descriptive title and subtitle",
+        "Verify Services section lists actual services/features",
+        "Verify FAQ section has questions and answers",
+        "Ensure Footer contains copyright and links",
+        "Check Pricing page for pricing tiers"
+      ],
+      "expectedOutcome": "Application demonstrates real content (not just Lorem Ipsum) and professional design"
+    },
+    {
+      "id": "auth-flow-test",
+      "name": "Authentication Flow Test",
+      "category": "functionality",
+      "priority": "critical",
+      "description": "Verify login process",
+      "steps": [
+        "Navigate to /signin or find Sign In button",
+        "Enter valid test credentials (admin@test.com)",
+        "Click Sign In",
+        "Verify state change (loading indicator or redirection)",
+        "Check if auth token is stored (if visible/mocked)"
+      ],
+      "expectedOutcome": "Login form submits and handles response correctly"
+    }
+  ]
+}
