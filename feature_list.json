@@ -1,0 +1,60 @@
+{
+  "features": [
+    {
+      "id": "header",
+      "name": "Header Navigation",
+      "description": "Header with Home, About, Pricing, Contact navigation links. Small logo appears on scroll.",
+      "passes": false,
+      "selected": true
+    },
+    {
+      "id": "hero",
+      "name": "Welcome/Hero Section",
+      "description": "Hero section with business tagline, description text, and centered logo on cognac brown background",
+      "passes": false,
+      "selected": true
+    },
+    {
+      "id": "services",
+      "name": "Services Section",
+      "description": "How our services work - Research, Script, Film & Edit, Upload with icons and descriptions",
+      "passes": false,
+      "selected": true
+    },
+    {
+      "id": "faq",
+      "name": "FAQ Section",
+      "description": "Collapsible FAQ with all 9 questions and answers",
+      "passes": false,
+      "selected": true
+    },
+    {
+      "id": "footer",
+      "name": "Footer Section",
+      "description": "Footer with social media icons and contact email",
+      "passes": false,
+      "selected": true
+    },
+    {
+      "id": "about-page",
+      "name": "About Page",
+      "description": "Our Story section and detailed Research/Script/Film&Edit/Upload breakdown",
+      "passes": false,
+      "selected": true
+    },
+    {
+      "id": "pricing-page",
+      "name": "Pricing Page",
+      "description": "Service pricing explanation and Starter package at €1950/month",
+      "passes": false,
+      "selected": true
+    },
+    {
+      "id": "contact-page",
+      "name": "Contact Page",
+      "description": "Basic contact form with fields for name, email, message",
+      "passes": false,
+      "selected": true
+    }
+  ]
+}
